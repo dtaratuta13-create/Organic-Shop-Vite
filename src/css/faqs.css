@@ -7,6 +7,15 @@
     flex-direction: column;
     gap: 16px;
     padding: 64px 16px;
+    max-width: 100%; /* allow global .container to control actual width */
+}
+
+/* inner wrapper to center content inside .container */
+.faq-inner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 .faq-title{
     margin-bottom: 16px;

@@ -3,10 +3,10 @@
 }
 
 .container {
-  width: 100%;
   margin: 0 auto;
   padding: 0 16px;
   box-sizing: border-box;
+  max-width: 100%; /* defer sizing to global .container in main.css */
 }
 
 .assortment {
@@ -155,13 +155,13 @@
 
 @media screen and (min-width: 375px) {
   .container {
-    width: 375px; 
+    max-width: 375px; 
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding: 0 32px;
   }
 
@@ -184,7 +184,7 @@
   }
 
   .container {
-    width: 1440px;
+    max-width: 1440px;
     padding: 0 64px;
   }
 

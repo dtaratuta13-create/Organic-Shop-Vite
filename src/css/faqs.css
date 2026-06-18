@@ -20,10 +20,23 @@
 .faq-title{
     margin-bottom: 16px;
     font-size: 36px;
+
+    font-family: "Chivo", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 48px;
+line-height: 1.2; /* 120% */
+letter-spacing: -0.01em; /* -1% */
 }
 .faq-text{
     margin-bottom: 32px;
     font-size: 18px;
+
+      font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0;
 }
 .faq-list{
     width: 100%;
@@ -45,14 +58,31 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .faq-subtitle{
     max-width: 80%;
     font-size: 18px;
+
+  font-family: "Public Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0;
+
 }
 .faq-answer{
     max-width: 100%;
     font-size: 16px;
+
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0;
+
 }
 .faq-svg{
     fill: #FFFFFF;
